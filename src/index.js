@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Prod />}  />
          <Route path="core" element={<Core />} />
          <Route path ="prod" element={<Prod />} />
           <Route path="*" element={<h1>Route does notexist</h1>}/>
