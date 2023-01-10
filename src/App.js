@@ -9,6 +9,7 @@ import {
 export default function App() {
   return (
     <Router>
+      <Switch>
 
           <Route path="/core">
             <CoreProduct />
