@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 function Clock(){
   const [date, setDate] = useState(new Date());
-
   function refreshClock() {
     setDate(new Date());
   }
@@ -13,8 +12,8 @@ function Clock(){
   }, []);
   return (
     <span>
-        <p>{date.toLocaleDateString()}</p>
-    <p>{date.toLocaleTimeString()}</p>
+        <p>{date.toLocaleDateString( )}</p>
+    <p>{date.toLocaleTimeString( { timeZone: 'Europe/Stockholm' })}</p>
 
     </span>
 
