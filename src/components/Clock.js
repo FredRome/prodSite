@@ -13,7 +13,7 @@ function Clock(){
   return (
     <span>
         <p>{date.toLocaleDateString( )}</p>
-    <p>{date.toLocaleTimeString( { timeZone: 'Europe/Stockholm' })}</p>
+    <p>{date.toLocaleTimeString('en-US', { timeZone: 'Europe/Madrid' })}</p>
 
     </span>
 
