@@ -12,11 +12,12 @@ code {
     monospace;
 }
 
-.overlay {
+.overlay-r {
   z-index: 1;
   padding-left:10px;
   padding-right: 10px;
   font-family: Menlo;
+  font-size: large;
   background-color: black;
   color: white;
   bottom: 5px;
@@ -24,4 +25,22 @@ code {
   overflow: hidden;
   position: absolute;
   opacity: 0.7;
+}
+.overlay-l {
+  z-index: 1;
+  padding-left:10px;
+  padding-right: 10px;
+  font-family: Menlo;
+  font-size: large;
+  background-color: black;
+  color: white;
+  bottom: 5px;
+  left: 10px;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0.7;
+}
+.footer,
+.push {
+  height: 50px;
 }
