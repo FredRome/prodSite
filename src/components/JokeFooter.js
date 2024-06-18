@@ -6,7 +6,7 @@ const JokeFooter = () => {
   useEffect(() => {
     const fetchJoke = async () => {
       try {
-        const apiKey = 'lUqXXdkwaEwJk8mibVRlNQ==4SWPcVe17vCQcLTN'; // Replace 'your-api-key' with your actual API key
+        const apiKey = 'lsxtPyNLQyTuKuITNYlabCLpANc4TgW87zdW87Y9'; // Replace 'your-api-key' with your actual API key
         const headers = {
           'X-API-Key': apiKey,
           'Content-Type': 'application/json', // Adjust content type as per API requirements
