@@ -12,7 +12,7 @@ const JokeFooter = () => {
           'Content-Type': 'application/json', // Adjust content type as per API requirements
         };
 
-        const response = await fetch('https://api.api-ninjas.com/v1/jokes', {
+        const response = await fetch('https://api.api-ninjas.com/v1/dadjokes', {
           method: 'GET',
           headers: headers,
         });
